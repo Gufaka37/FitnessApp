@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22C40343-E3BB-4F9E-8151-B8354CA7EA6F}</ProjectGuid>
+    <ProjectGuid>{1C5391CC-9E0E-4845-9665-57EB3294463A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Fitness.CMD</RootNamespace>
     <AssemblyName>Fitness.CMD</AssemblyName>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fitness.BL\Fitness.BL.csproj">
+      <Project>{67101c4f-f878-42a5-925a-db05694b901a}</Project>
+      <Name>Fitness.BL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

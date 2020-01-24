@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B5E7F6B-7BC7-441A-9706-8F2DB19330F0}</ProjectGuid>
+    <ProjectGuid>{67101C4F-F878-42A5-925A-DB05694B901A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Fitness.BL</RootNamespace>
     <AssemblyName>Fitness.BL</AssemblyName>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\UserController.cs" />
+    <Compile Include="Model\Gender.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,6 +10,7 @@ namespace Fitness.BL
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
